@@ -39,7 +39,7 @@ shinyServer(function(input, output) {
         rg<-range(dataset[,input$hist])
         bw<-(rg[2]-rg[1])/10
         ggplot(dataset, aes_string(x=input$hist)) + geom_histogram(binwidth = bw)
-    }, height=400)
+    }, height=400, width=500)
     
     # The scatter plot is processed in this section
     output$corplot <- renderPlot({   
@@ -50,7 +50,7 @@ shinyServer(function(input, output) {
         
         print(p)
         
-    }, height=400)
+    }, height=400, width=500)
     
     # The correlation between X and Y is calculated in this section
     # Correlation is not calculated if one of the variables is a factor

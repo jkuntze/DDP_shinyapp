@@ -113,7 +113,7 @@ shinyUI(navbarPage("Dataset Explorer",
              p("A presentation about the application is available at http://jkuntze.github.io/DDP_slidify"),
              
              h2("Dataset"),
-             p("The mtcars dataset was used to demonstrate how to build a shiny app to explore data, produce linear regresions and evaluate their validity."),
+             p("The mtcars dataset was used to demonstrate how to build a shiny app to explore data, produce linear regressions and evaluate their validity."),
              h3("Description"),
              p("The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models)."),
              
